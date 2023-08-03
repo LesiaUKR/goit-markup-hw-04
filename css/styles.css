@@ -408,7 +408,7 @@ header .logo {
 }
 
 .customers-item {
-  width: 168px;
+  width: calc((100% - 5 * 24px) / 6);
   height: 88px;
 }
 
@@ -427,7 +427,7 @@ header .logo {
 }
 
 .customers-link:hover,
-.customers-link:hover {
+.customers-link:focus {
   color: var(--pressed-state-color);
   border-color: var(--pressed-state-color);
 }
