@@ -311,11 +311,6 @@ header .logo {
   background: var(--light-mode-backgrounds-color);
 }
 
-/* .benefits_icon {
-
-padding: 24px 100px;
-} */
-
 /* ========== /BENEFITS SECTION ========== */
 
 /* ========== WHAT ARE WE DOING ========== */
@@ -364,6 +359,26 @@ padding: 24px 100px;
   text-align: center;
 }
 
+.socials-list {
+  display: flex;
+  column-gap: 24px;
+  justify-content: center;
+  margin-top: 8px;
+}
+
+.socials-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  background-color: var(--primary-brand-color);
+  width: 40px;
+  height: 40px;
+}
+
+.socials-icon {
+  fill: var(--light-mode-backgrounds-color)
+}
 /* ========== /TEAM SECTION ========== */
 
 /* ========== PORTFOLIO SECTION ========== */
