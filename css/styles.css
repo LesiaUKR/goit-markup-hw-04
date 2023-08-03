@@ -428,7 +428,7 @@ header .logo {
 
 .customers-link:hover,
 .customers-link:hover {
-  fill: var(--pressed-state-color);
+  color: var(--pressed-state-color);
   border-color: var(--pressed-state-color);
 }
 
