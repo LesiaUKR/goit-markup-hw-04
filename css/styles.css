@@ -117,6 +117,7 @@ footer .logo {
 
 .header-container {
   display: flex;
+  align-items: center;
 }
 
 header .logo {
@@ -148,13 +149,13 @@ header .logo {
   color: var(--pressed-state-color);
 }
 
-.nav-link.active{
+.nav-link.active {
   color: var(--pressed-state-color);
 }
 
 .nav-link.active::after {
   display: block;
-  content: "";
+  content: '';
   position: absolute;
   width: 48px;
   height: 4px;
@@ -162,7 +163,6 @@ header .logo {
   border-radius: 2px;
   bottom: -1px;
 }
-
 
 .header-contacts {
   margin-left: auto;
@@ -198,17 +198,16 @@ header .logo {
 }
 
 .hero-bgr-image {
+  margin: 0 auto;
+  max-width: 1440px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
   background-image: linear-gradient(
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
     ),
     url(../images/hero/bgr-image-people-office.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  max-width: 1440px;
-  background-position: center;
-  margin-right: auto;
-  margin-left: auto;
 }
 
 .hero-title {
@@ -296,8 +295,23 @@ header .logo {
 }
 
 .benefits-list-item {
+  display: flex;
+  flex-direction: column;
+  column-gap: 8px;
   flex-basis: calc((100% - 3 * 24px) / 4);
 }
+
+.benefits-icon-wrap {
+  padding: 24px 100px;
+  margin-bottom: 8px;
+  border-radius: 4px;
+    background: var(--light-mode-backgrounds-color);
+}
+
+/* .benefits_icon {
+
+padding: 24px 100px;
+} */
 
 /* ========== /BENEFITS SECTION ========== */
 
