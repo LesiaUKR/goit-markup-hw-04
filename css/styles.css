@@ -302,10 +302,13 @@ header .logo {
 }
 
 .benefits-icon-wrap {
-  padding: 24px 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   margin-bottom: 8px;
+  height: 112px;
   border-radius: 4px;
-    background: var(--light-mode-backgrounds-color);
+  background: var(--light-mode-backgrounds-color);
 }
 
 /* .benefits_icon {
