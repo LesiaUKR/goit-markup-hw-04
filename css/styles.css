@@ -447,13 +447,6 @@ header .logo {
   margin-bottom: 72px;
 }
 
-.portfolio-filters-item {
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    border-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
 .portfolio-filters-btn {
   padding: 12px 24px;
   text-align: center;
@@ -468,6 +461,11 @@ header .logo {
   letter-spacing: 0.04em;
   background: var(--light-mode-backgrounds-color);
   color: var(--primary-brand-color);
+
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    border-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .portfolio-filters-btn:hover,
