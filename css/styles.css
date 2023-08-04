@@ -494,6 +494,11 @@ header .logo {
   background-color: var(--overlays-shadows-headings-color);
 }
 
+.footer-container {
+  display: flex;
+  align-items: baseline;
+}
+
 .footer-text {
   max-width: 264px;
   font-style: normal;
@@ -507,5 +512,10 @@ header .logo {
     line-height: 1.5;
     color: var(--first-background-color);
     margin-bottom: 16px;
+}
+
+.footer-socials-wrap {
+ margin-left: 120px;
+
 }
 /* ========== /FOOTER ========== */
